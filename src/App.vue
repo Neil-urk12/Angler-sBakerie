@@ -1,11 +1,9 @@
 <script setup>
 import { RouterView } from 'vue-router';
-import navbar from '../src/components/navbar.vue';
 </script>
 
 <template>
     <main class="container">
-        <navbar></navbar>
         <RouterView></RouterView>
     </main>
     <!-- <RouterView></RouterView> -->
@@ -16,5 +14,6 @@ import navbar from '../src/components/navbar.vue';
         width: 100%;
         display: flex;
         flex-direction: column;
+        max-height: 100vh;
     }
 </style>
