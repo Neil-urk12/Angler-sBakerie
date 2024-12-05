@@ -1,0 +1,37 @@
+1st theme
+Main Color: Sandy Beige  RGB: 245, 245, 220
+
+Secondary Color: Seafoam Green RGB: 178, 230, 206
+
+Accent Color: Warm Golden Brown RGB: 255, 215, 0
+
+Background Accent Color : Coral Pink RGB: 255, 198, 117
+--------------------------------------------------------------
+For Sandy Beige (#F5F5DC) background:
+Text Color: Deep Navy Blue (#2E4053) or Rich Dark Gray (#333333)
+
+For Seafoam Green (#B2E6CE) background:
+Text Color: Warm Dark Gray (#555555) or Soft Charcoal (#666666)
+
+For Warm Golden Brown (#FFD700) background:
+Text Color: Deep Forest Green (#228B22) or Rich Brown (#964B00)
+
+For Coral Pink (#FFC67D) background:
+Text Color: Soft White (#FFFFFF) or Light Gray (#999999)
+
+
+===================================================================================
+2nd theme
+
+Ocean Blue RGB: (0, 105, 148)
+Sandy Beige RGB: (240, 230, 140)
+Sunset Orange RGB: (255, 97, 56)
+Seafoam Green RGB: (159, 226, 191)
+
+Main Text Color – Dark Gray or Charcoal: RGB: 54, 69, 79
+
+Accent Text Color – Ocean Blue: You can use Ocean Blue for headings or special text elements
+
+Links and Buttons – Sunset Orange: Use Sunset Orange for clickable elements like links and buttons to make them stand out and encourage user interaction.
+
+Subtle Text – Sandy Beige: For less prominent text like footer or secondary information, Sandy Beige can be used sparingly to maintain readability while keeping the design cohesive.
