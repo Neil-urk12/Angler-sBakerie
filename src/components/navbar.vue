@@ -13,7 +13,7 @@ const toggle = () => {
 <template>
    <header>
         <div class="logo">
-            <img src="C:\neil\Code\VueDBMSTestApp\AnglersBakerie\src\assets\imgs\logo.png" alt="Logo" loading="lazy">
+            <img src="\src\assets\imgs\logo.png" alt="Logo" loading="lazy">
             <h1>Bakerie</h1>
         </div>
         <ul class="navbar">
