@@ -38,13 +38,13 @@ const showLogin = ref(false)
             <img src="/src/assets/imgs/pixelbread.png" alt="" loading="lazy" />
         </div>
         <div class="icons">
-            <RouterLink
+            <RouterLink to="facebook.com"
                 ><FacebookIcon /></RouterLink>
-            <RouterLink
+            <RouterLink to="instagram.com"
                 ><InstagramIcon /></RouterLink>
-            <RouterLink
+            <RouterLink to="mailto:neilvallecer12@gmail.com"
                 ><EmailIcon /></RouterLink>
-            <RouterLink
+            <RouterLink to="github.com/Neil-urk12"
                 ><GithubIcon /></RouterLink>
         </div>
         <login v-show="showLogin"></login>
