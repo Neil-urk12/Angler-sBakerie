@@ -33,7 +33,7 @@ const GithubIcon = defineAsyncComponent(() =>
             </div>
           </div>
           <div class="intro-img">
-            <img src="/src/assets/imgs/logo.png" alt="Angler's Bakerie Logo" loading="lazy" />
+            <img src="/src/assets/imgs/angl.png" alt="Angler's Bakerie Logo" loading="lazy" />
         </div>
         <div class="icons">
             <RouterLink><FacebookIcon /></RouterLink>
