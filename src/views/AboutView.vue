@@ -33,25 +33,44 @@
     color: #333;
     background-color: #f4f1ea;
     padding: 20px;
+    background: url("../assets/imgs/about.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
 .header h1 {
-    font-size: 2.5rem;
-    color: #5a4a42;
+    font-size: 3rem;
+    color: #f4f1ea; /* Light color for better contrast */
     margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000; /* Add text shadow for readability */
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .content p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #5a4a42;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    color: #f4f1ea; /* Light color for better contrast */
     margin-bottom: 20px;
 }
 
+.footer {
+    margin-top: 20px;
+}
+
 .footer p {
-    font-size: 1rem;
-    color: #5a4a42;
+    font-size: 1.1rem;
+    color: #f4f1ea; /* Light color for better contrast */
     font-style: italic;
 }
 </style>
