@@ -17,10 +17,10 @@ const toggle = () => {
             <h1>Bakerie</h1>
         </div>
         <ul class="navbar">
-            <RouterLink>About</RouterLink>
-            <RouterLink>Membership</RouterLink>
-            <RouterLink>Events</RouterLink>
-            <RouterLink>Contact</RouterLink>
+            <RouterLink to="/about">About</RouterLink>
+            <RouterLink to="/membership">Membership</RouterLink>
+            <RouterLink to="/events">Events</RouterLink>
+            <RouterLink to="/contact">Contact</RouterLink>
         </ul>
 
         <div class="right-btns">
