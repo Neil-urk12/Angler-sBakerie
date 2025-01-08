@@ -1,8 +1,12 @@
 <script setup>
-import { RouterView } from 'vue-router';
+import { RouterView } from 'vue-router'
+import { defineAsyncComponent } from 'vue'
+const navbar = defineAsyncComponent(() => import('./components/navbar.vue'))
+const handleLoginEvent = (flag) => (showLogin.value = flag)
 </script>
 
 <template>
+    <navbar @login="handleLoginEvent"></navbar>
     <main class="container">
         <RouterView></RouterView>
     </main>

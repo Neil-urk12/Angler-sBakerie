@@ -1,19 +1,16 @@
 <script setup>
-import { RouterLink } from "vue-router";
-import { defineAsyncComponent } from "vue";
-const navbar = defineAsyncComponent(() => import("../components/navbar.vue"));
-const login = defineAsyncComponent(() => import("../components/signIn.vue"));
-import { ref } from "vue";
-const FacebookIcon = defineAsyncComponent(() => import("../components/icons/FacebookIcon.vue"));
-const InstagramIcon = defineAsyncComponent(() => import("../components/icons/InstagramIcon.vue"));
-const EmailIcon = defineAsyncComponent(() => import("../components/icons/EmailIcon.vue"));
-const GithubIcon = defineAsyncComponent(() => import("../components/icons/GithubIcon.vue"));
-const showLogin = ref(false);
-const handleLoginEvent = (flag) => (showLogin.value = flag);
+import { RouterLink } from "vue-router"
+import { defineAsyncComponent } from "vue"
+const login = defineAsyncComponent(() => import("../components/signIn.vue"))
+import { ref } from "vue"
+const FacebookIcon = defineAsyncComponent(() => import("../components/icons/FacebookIcon.vue"))
+const InstagramIcon = defineAsyncComponent(() => import("../components/icons/InstagramIcon.vue"))
+const EmailIcon = defineAsyncComponent(() => import("../components/icons/EmailIcon.vue"))
+const GithubIcon = defineAsyncComponent(() => import("../components/icons/GithubIcon.vue"))
+const showLogin = ref(false)
 </script>
 
 <template>
-    <navbar @login="handleLoginEvent"></navbar>
     <section class="introductory-section">
         <div class="intro-text">
             <h5>Branded Bread Baked By the Beach</h5>

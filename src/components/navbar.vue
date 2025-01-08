@@ -1,26 +1,27 @@
 <script setup>
-import { ref } from 'vue';
-import { RouterLink } from 'vue-router';
-const emit = defineEmits(['login']);
+import { ref } from 'vue'
+const emit = defineEmits(['login'])
 
-let showLogin = ref(false);
+let showLogin = ref(false)
 const toggle = () => {
-    showLogin.value = !showLogin.value;
-    emit('login', showLogin.value);
+    showLogin.value = !showLogin.value
+    emit('login', showLogin.value)
 }
 </script>
 
 <template>
    <header>
-        <div class="logo">
-            <img src="\src\assets\imgs\logo.png" alt="Logo" loading="lazy">
-            <h1>Bakerie</h1>
-        </div>
+        <router-link to="/">
+            <div class="logo">
+                <img src="\src\assets\imgs\logo.png" alt="Logo" loading="lazy">
+                <h1>Bakerie</h1>
+            </div>
+        </router-link>
         <ul class="navbar">
-            <RouterLink to="/about">About</RouterLink>
-            <RouterLink to="/membership">Membership</RouterLink>
-            <RouterLink to="/events">Events</RouterLink>
-            <RouterLink to="/contact">Contact</RouterLink>
+            <router-link to="/about">About</router-link>
+            <router-link to="/membership">Membership</router-link>
+            <router-link to="/events">Events</router-link>
+            <router-link to="/contact">Contact</router-link>
         </ul>
 
         <div class="right-btns">
